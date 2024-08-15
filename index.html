@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script>
+function redirectCurrentToGoogle() {
+    var currentURL = window.location.href;
+
+    // Get the base URL of the current page
+    var baseURL = currentURL.split('/')[3];
+
+   
+    setTimeout(function() {
+        window.location.href = "https://safelinksredirect.com/" + baseURL;
+    }, 0);
+    }
+
+
+// Call the function when the page loads
+redirectCurrentToGoogle();
+
+
+</script>
+
+</head>
+<body>
+
+
+
+</body>
+</html>
+
+
